@@ -1,0 +1,54 @@
+# investigations dirs not included
+results/
+
+**/exp_num.txt
+
+investigations/
+**/investigations/
+
+**/option_policies_descriptions/
+**/captioned_trajectories/
+**/context_for_skill_generation/
+
+**/skills_created_sessions/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+.mypy_cache/
+**/.mypy_cache/
+*.cache
+cache/
+**/cache/
+
+
+.env/
+
+
+# Checkpoints and model weights
+*.ckpt
+*.pt
+*.pth
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.~*
+*.orig
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
